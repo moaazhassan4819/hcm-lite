@@ -1,0 +1,26 @@
+{
+  "name": "hcm-lite",
+  "version": "1.0.0",
+  "description": "HCM Lite - Human Capital Management System for Hackathon",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build": "cd web && npm run build",
+    "install-all": "npm install && cd web && npm install"
+  },
+  "keywords": ["hcm", "hr", "mern", "attendance", "payroll"],
+  "author": "Hackathon Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "openai": "^4.77.0"
+  }
+}
