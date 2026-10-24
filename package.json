@@ -7,10 +7,15 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
-    "build": "cd web && npm run build",
     "install-all": "npm install && cd web && npm install"
   },
-  "keywords": ["hcm", "hr", "mern", "attendance", "payroll"],
+  "keywords": [
+    "hcm",
+    "hr",
+    "mern",
+    "attendance",
+    "payroll"
+  ],
   "author": "Hackathon Team",
   "license": "MIT",
   "dependencies": {
